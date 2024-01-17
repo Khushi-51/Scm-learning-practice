@@ -1,0 +1,24 @@
+Git ---> It is the open source system, it is linux/windows/mac OS based plateforms. It is very popular and have a distributed architecture.
+
+Git client communicate git serer With the help of http, ssh or other protocols of git.
+
+Protocols ---> Set of rules which helps in communication between two machines.
+
+No internet connection is required to work on individual machines.
+
+Git is fast and modern implitation of version control. Git provides a history of content changes. Git facilitates collaborative changes to files. Git is easy to use for any type of knowledge worker.
+
+Git will save the data in form of snapshots.
+
+The major difference between fit and other vcs is the way it thinks about its data, other system store info. as a list of file based changes. Other vcs are CVS, SUBVERSION, PERFORCE, BAZAAR. These are the delta based vcs.
+
+Git like info. stored as a set of files and the changes made to each file over-types.
+
+Git saves data more like a series of snapshots, in a mini-file system.
+
+With Git every time you commit or save the status of your project. Git basically takes a picture of what all your file looks like at that moment and stores a reference of those snapshots.
+
+To be efficient if the file have not changed, git do not store the file again.
+
+Git stores data more like a stream of snapshots.
+
