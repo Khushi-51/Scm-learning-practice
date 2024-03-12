@@ -37,4 +37,4 @@ VCS allows you to revert selected files back to a previous state, revert the ent
 Remaining area is known as working tree, working directroy or working space. It cantains all the files that arae currently tracked by it and files which are not added in the list of tracked files. It always tells the current version of the project.
 
 12/07/24
-adding content after pushing..
+adding content after pushing.. 
