@@ -18,7 +18,23 @@ Git saves data more like a series of snapshots, in a mini-file system.
 
 With Git every time you commit or save the status of your project. Git basically takes a picture of what all your file looks like at that moment and stores a reference of those snapshots.
 
+
 To be efficient if the file have not changed, git do not store the file again.
+
 
 Git stores data more like a stream of snapshots.
 
+16-01-2024 -------------------------------------------------------------------------------------------------------------------------------------------------
+
+In git every operation is local. Most operation in git needs only local files and resources to operate generally no information is needed from another computer on your network. Entire history of your project right there on your local disc. For browsing the history of the project git does not need to go out to the server to get the history and display it for you, it simply reads it directly from your local database. Changed file will also get from local database, no network or resouces required.
+
+Git has integrating ---> everything in git is checksummed before it is stored and is then referred to by that checksum, so it's impossible to change the content of the file without git knowing about it. You cannot loose info. in transmission or get file corruption without git being able to detect it. it uses SH-1(secured hash) protocol.
+
+Git generally only adds data to the git database in other VCS you can use or messup changes you have not commited but in git after you commit, a snapshot will be taken then you didn't loose any data.
+
+VCS allows you to revert selected files back to a previous state, revert the entire project back to it's previous state, compare changes overtime, see who last modified something that might be causing a problem, who introduced an issue and when and more.
+????/
+Remaining area is known as working tree, working directroy or working space. It cantains all the files that arae currently tracked by it and files which are not added in the list of tracked files. It always tells the current version of the project.
+
+12/07/24
+adding content after pushing..
